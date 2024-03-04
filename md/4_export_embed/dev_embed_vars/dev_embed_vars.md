@@ -52,7 +52,7 @@ if(myVar) {
 	// will be called every time value changes
     myVar.on("change", (function(newValue) {
         console.log(newValue);
-    });
+    }));
 }
 ```
 
